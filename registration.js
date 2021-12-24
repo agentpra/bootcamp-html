@@ -1,4 +1,8 @@
 console.log("this is registration page");
+const userInfoa = localStorage.getItem("userInfo");
+if (userInfoa){
+    goto("home.html");
+}
 const registrationform = document.getElementById("registration-form");
 
 console.log(registrationform); 
@@ -28,4 +32,5 @@ const data = {
 };
 console.log(data);
 localStorage.setItem("userInfo", JSON.stringify(data));
+goto("home.html");
 };
