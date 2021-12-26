@@ -1,7 +1,9 @@
 const { app, BrowserWindow } = require("electron");
-
+const sound = require("sound-play")
+const path = require("path")
 let mainWindow;
-
+sound.play(path.join(__dirname,"foo.mp3"))
+ 
 function createWindow() {
   mainWindow = new BrowserWindow({
     title: "Bootcamp",
