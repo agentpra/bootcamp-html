@@ -18,7 +18,8 @@
     "url": "https://github.com/agentpra/bootcamp-html/issues"
   },
   "homepage": "https://github.com/agentpra/bootcamp-html#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "electron": "^16.0.5",
     "electron-builder": "^22.14.5"
   }
